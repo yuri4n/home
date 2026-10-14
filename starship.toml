@@ -1,0 +1,41 @@
+add_newline = true
+command_timeout = 10000
+
+[aws]
+format = '(on [$symbol($profile )(\[$duration\] )]($style))'
+symbol = " "
+disabled = false
+
+[character]
+format = "$time $symbol "
+error_symbol = "[✗](bold red)"
+disabled = false
+
+[elixir]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[python]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+detect_folders = []
+
+[time]
+format = "[$time]($style)"
+disabled = false
+
+[java]
+disabled = true
